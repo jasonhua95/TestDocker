@@ -1,2 +1,6 @@
 
-*.dll
+bin/
+obj/
+wwwroot/
+.vs/
+packages/

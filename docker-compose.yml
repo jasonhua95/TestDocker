@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  coredockerwebtest:
+    image: ${DOCKER_REGISTRY}coredockerwebtest
+    build:
+      context: .
+      dockerfile: CoreDockerWebTest\Dockerfile
